@@ -19,6 +19,7 @@ function Actor() {
   console.log(getActorsData);
   useEffect(() => {
     getActorsData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inputVal]);
   return (
     <>
